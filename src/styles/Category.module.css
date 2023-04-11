@@ -1,0 +1,25 @@
+.section{
+    display: inline-flex;
+    height: 100px;
+}
+.section a{
+    font-size: 14px;
+    cursor: pointer;
+}
+.category{
+    margin: 1.9rem 0.6rem;
+    border: 1px solid rgba(255,255,255,0.5);
+    background: #353535;
+    height: 2.4rem;
+    border-radius: 100px;
+    padding: 0.6rem 1.7rem;
+}
+.categoryActive{
+    background: white;
+    color: black;
+    margin: 1.9rem 0.6rem 2.5rem 3.3rem;
+    border: 1px solid rgba(255,255,255,0.5);
+    height: 2.4rem;
+    border-radius: 100px;
+    padding: 0.6rem 1.7rem;
+}
