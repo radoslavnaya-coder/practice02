@@ -89,6 +89,7 @@ body {
   font-family: 'Montserrat';
   color: rgb(var(--foreground-rgb));
   background: #232323;
+  color: white;
 }
 
 a {

@@ -1,6 +1,6 @@
 .section{
     margin: 2rem 3.5rem 0 3.5rem;
-    width: 80%;
+    width: 100%;
     display: grid; 
     grid-template-columns: 366px 366px 366px 366px; 
     grid-template-rows: 315px 315px; 
@@ -14,4 +14,19 @@
    width: 366px;
    height: 315px;
 }
-
+.videoplaceDescription{
+   display: inline-flex;
+   margin: 1rem 0;
+}
+.accountImage{
+   margin: 0 1rem 0 0;
+}
+.videoplaceH1{
+   font-size: 16px;
+}
+.videoplaceH3{
+   font-size: 13px;
+}
+.videoplaceP{
+   font-size: 13px;
+}
