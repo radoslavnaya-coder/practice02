@@ -1,9 +1,9 @@
 :root {
   --max-width: 1800px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Montserrat';
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace, "Montserrat";
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -72,6 +72,12 @@
     --card-border-rgb: 200, 200, 200;
   }
 }
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: url(/cross.png); /*нафантазируйте в ФШ*/
+}
 
 * {
   box-sizing: border-box;
@@ -86,7 +92,7 @@ body {
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   color: rgb(var(--foreground-rgb));
   background: #232323;
   color: white;
