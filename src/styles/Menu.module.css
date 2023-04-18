@@ -1,20 +1,31 @@
 .section {
   width: 14.75rem;
   max-width: 100%;
-  margin: 1rem 1.2rem;
+  margin: 1rem 0.6rem 1rem 1.2rem;
 }
 
+.menuFirstElement{
+  margin: 1.8rem 0 0.4rem 0 !important;
+  padding: 0.95rem 1.5rem;
+  display: inline-flex;
+  width: 14.75rem;
+  border-radius: 10px;
+}
 .menu__buttonActive {
-  margin: 2.25rem 0 0 0;
-  padding: 0.9rem 1.5rem;
+  height: 3.4rem;
+  margin: 0.4rem 0;
+  padding: 0.95rem 1.5rem;
   display: inline-flex;
   background: #2e3e3e;
   border-radius: 10px;
   width: 14.75rem;
 }
 .menu__button {
-  padding: 1.4rem 1.5rem;
+  height: 3.4rem;
+  margin: 0.4rem 0;
+  padding: 0.95rem 1.5rem;
   display: inline-flex;
+  width: 14.75rem;
 }
 .menu__buttonScript {
   position: relative;
@@ -29,7 +40,7 @@
   padding: 0.8rem 1.6rem;
   border-radius: 25px;
   border: 1px solid #b4ffff;
-  margin: 1.2rem 2.4rem;
+  margin: 1.2rem 2.8rem;
   color: white;
 }
 .descriptionReg:hover {
