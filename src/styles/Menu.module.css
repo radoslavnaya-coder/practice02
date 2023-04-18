@@ -35,25 +35,37 @@
 }
 .descriptionReg {
   background: #353535;
+  display: inline-flex;
   width: 8.9rem;
   height: 3.2rem;
   padding: 0.8rem 1.6rem;
   border-radius: 25px;
   border: 1px solid #b4ffff;
   margin: 1.2rem 2.8rem;
-  color: white;
 }
 .descriptionReg:hover {
   background: #1fa3a3;
 }
+.descriptionReg:active{
+  background: #B4FFFF;
+  color: black;
+}
 .reg__button {
   position: relative;
   padding-left: 0.8rem;
-  bottom: 0.35rem;
   border: none;
   background: none;
   font-weight: 400;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: white;
+}
+.menuAccount:active{
+  display: none;
+}
+.menuAccountBlack{
+  display: none;
+}
+.menuAccountBlack:active{
+  display: inline;
 }

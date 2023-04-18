@@ -29,4 +29,5 @@ export default function switcher(){
           four.style.background = "none";
           break;
       }
+      window.onload = switcher;
 }

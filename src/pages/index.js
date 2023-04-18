@@ -56,7 +56,6 @@ export default function Home() {
         <div>
           <Category />
           <Videoplace />
-          
         </div>
       </section>
     </>
